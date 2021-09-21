@@ -2,7 +2,7 @@
 A simple python implementation of nelder mead algorithm without any packages.
 
 ## A simple introduction to nelder-mead
-Nelder-mead is a commonly used optimization algorithm in many areas. 
+Nelder-mead is a commonly used optimization algorithm in many areas. It's used to search for the loacal minimum of the multivariate function.
 It has many advantages, such that it's simple, it doesn't need gradient information, its principle is not difficult to be understood, etc... .
 But one of its biggest disadvantages is the slow convergence speed under some circumstances.
 
