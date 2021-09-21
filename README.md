@@ -15,7 +15,7 @@ It's okay to just copy "nelder_mead.py" file to your computer.
 The basic function is "nelder_mead_optimize".
 
 Here is a demonstration.
-```
+```python
 from nelder_mead import nelder_mead_optimize
 
 def rosenbrock(x):
@@ -36,7 +36,7 @@ The optimization result are shown in the form of (min_value_point,min_value).
 ## More details about nelder_mead_optimize function
 There are many parameters that nelder_mead_optimize function needs, but most of them are set default.
 Here is the complete input of nelder_mead_optimize
-```
+```python
 nelder_mead_optimize(f,x0,init_step=0.025,step_coeff=1.025,
                          x_err=1e-5,y_err=1e-5,max_iter=5000,
                          alpha=1,gamma=2,rho=0.5,sigma=0.5)
